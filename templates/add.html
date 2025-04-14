@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Add Movie{% endblock %}
+
+{% block content %}
+<div class="content">
+    <h1 class="heading">Add a Movie</h1>
+        <form method="POST" enctype="multipart/form-data">
+                {{ form.hidden_tag() }}
+            <p> {{ form.title.label }} <br> {{ form.title(size=30) }} </p>
+            <p> {{ form.year.label }} <br> {{ form.year(size=30) }}   </p>
+            <p> {{ form.description.label }} <br> {{ form.description(size=30) }}</p>
+            <p> {{ form.rating.label }} <br> {{ form.rating(size=30) }}</p>
+            <p> {{ form.review.label }} <br> {{ form.review(size=30) }} </p>
+            <p> {{ form.summary.label }} <br> {{ form.summary(size=30) }}</p>
+            <p> {{ form.ranking.label }} <br> {{ form.ranking(size=30) }}</p>
+            <p> {{ form.image_url.label }} <br> {{ form.image_url() }}</p>
+            <p> {{ form.submit() }}</p>
+        </form>
+</div>
+{% endblock %}
+
