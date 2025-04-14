@@ -2,8 +2,6 @@
 
 A simple Flask web application where you can track and manage your favourite movies, including their ratings, reviews, and descriptions.
 
----
-
 ## 📸 Features
 
 - View a list of your top 10 favourite movies with images, ratings, and summaries.
@@ -12,7 +10,6 @@ A simple Flask web application where you can track and manage your favourite mov
 - Delete movies from your collection.
 - Rankings auto-update based on the highest ratings.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -23,7 +20,6 @@ A simple Flask web application where you can track and manage your favourite mov
 - **Bootstrap 5**
 - **SQLite**
 
----
 
 ## 🚀 How to Run
 
